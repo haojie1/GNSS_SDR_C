@@ -1,10 +1,11 @@
 # GNSS_SDR_C
 This is a software GNSS receiver in C based on the receiver in "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach"
 ## Get start
-run "make" command
+step1: run "make" command
+step2: run "./GNSS_Receiver"
 
-## System requirements
-gsl libirary is need
+## Requirements
+gsl libirary is needed
 
 ## Test Environment
 code has just tested in ubuntu 20.04.1
@@ -25,5 +26,5 @@ code has just tested in ubuntu 20.04.1
 - IE.dat, IP.dat and IL.dat are I path results of ealy code path, prompt code path and late code path respectively. QE.dat, QP.dat and QL.dat have the similar meaning.
 - pos.dat is the output of postion, once one millisecond.
 
-## Resources
-Notes: this code most is ported from the software receiver in "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach". So if you want to know more details, you can read this book or send email to me.
+## Notes
+this code most is ported from the software receiver in "A Software-Defined GPS and Galileo Receiver: A Single-Frequency Approach". So if you want to know more details, you can read this book or send email to me.
